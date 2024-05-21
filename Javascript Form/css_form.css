@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    /* background: rgb(80, 255, 252); */
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+.mainbox {
+    display: flex;
+    justify-content: center;
+}
+.form_box {
+    margin-top: 15%;
+    height: 100%;
+    width: 25rem;
+    background-color: rgba(80, 117, 229, 0.373);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
+}
+form {
+    height: 90%;
+    width: 100%;
+}
+input {
+    height: 30px;
+    width: 65%;
+    border: 2px solid blue;
+    border-color: rgb(0, 255, 255);
+    border-radius: 10px; 
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+input:hover {
+    border: 2px solid rgb(255, 0, 102);
+    
+}
+/* .input-control.success {
+    color: #ff3860;
+    font-size: 8px;
+    height: 13px;
+} */
+.input-ctr.success input{
+    border-color: #09c372;
+}
+.input-ctr.error input {
+    border-color: #ff3860;
+}
+.input-control.error {
+    color: #ff3860;
+    font-size: 8px;
+    height: 13px;
+    /* margin-bottom: 3px; */
+}
+.error {
+    color: #8f1e1c;
+} 
+/* Hide the strength display by default */
+.strength {
+    display: none;
+}
+
+/* Style the strength display when it's shown */
+.show-strength {
+    display: block;
+    color: green; 
+    font-size: 13px; 
+    margin-top: 5px; 
+}
+
+#username, #number, #email_id, #password, #cpass{
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.24), 0 10px 9px 0 rgba(0,0,0,0.19);
+}
+#rme {
+    height: 14px;
+    width: 25px;
+}
+label:hover {
+    color: rgb(165, 73, 42);
+}
+#key{
+    height: 3.3rem;
+    width: 3.3rem;
+    font-size: 3rem;
+    background: -webkit-linear-gradient(rgb(255, 203, 80) , rgb(244, 62, 49));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login, .sign {
+    margin-bottom: 50px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgba(0, 0, 255, 0.844);
+    text-shadow: 2px 2px 4px #fe4141;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(165, 73, 42);
+}
+.btn {
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    font-size: 1.1rem;
+    border: 2px solid purple;
+    border-color: rgb(204, 0, 255);
+    border-radius: 13px;
+    background: rgb(80,255,188);
+    background: linear-gradient(106deg, rgba(80,255,188,1) 0%, rgba(49,244,114,1) 18%, rgba(199,241,52,1) 100%);
+}
+.btn:hover {
+    border: solid rgb(255, 94, 0);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 10px 10px 0 rgba(0,0,0,0.19);
+}
+.sign_in {
+    font-size: 0.9rem;
+}
